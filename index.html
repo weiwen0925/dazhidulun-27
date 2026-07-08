@@ -784,4 +784,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C27P4:END-->
+<!--WY-C27P5:BEGIN-->
+<style id="wy-c27p5-css">
+.c27p5-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c27p5-fabbox.show{display:block;}
+.c27p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c27p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c27p5-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c27p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c27p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c27p5-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c27p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c27p5-modal.open{display:flex;}
+.c27p5-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c27p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c27p5-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c27p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c27p5-close:hover{background:#e3d5b8;}
+.c27p5-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c27p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c27p5-tbl th,.c27p5-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c27p5-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c27p5-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c27p5-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c27p5-tbl b{color:#8b2500;}
+.c27p5-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c27p5-note b{color:#8b2500;}
+@media(max-width:900px){.c27p5-fabbox{right:14px;}.c27p5-tbl{font-size:11.5px;}.c27p5-card{padding:26px 14px 16px;}}
+</style>
+<div class="c27p5-fabbox" id="c27p5Box"><button class="c27p5-btn" id="c27p5Btn" type="button" aria-label="開啟全景總表"><span class="c27p5-ic">▦</span><span class="c27p5-ls"><span class="c27p5-l1">本品 · 釋欲上菩薩位</span><span class="c27p5-l2">頂墮之悖論・不住於頂方能住頂</span></span></button></div><div class="c27p5-modal" id="c27p5Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c27p5-card"><button class="c27p5-close" id="c27p5Close" type="button" aria-label="關閉">×</button><h3>卷二十七・第五品 釋欲上菩薩位 ・ 全景總表</h3><p class="sub">卷二十七・第五品｜無生法忍・頂墮的五步邏輯鏈・十八空解藥・入位四法・二事等</p><table class="c27p5-tbl"><caption>一、菩薩位的多重定義與頂墮悖論（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>所釋經文</td><td>欲上菩薩位，當學般若波羅蜜——般若波羅蜜是登菩薩位的唯一階梯</td></tr><tr><td>菩薩位五重定義</td><td>無生法忍（觀世間空心無所著）、般舟三昧（悉見諸佛斷諸疑網）、六度生方便智（於實相亦不住）、阿鞞跋致、閉三惡趣門</td></tr><tr><td>頂墮之悖論</td><td>六波羅蜜行至入空無相無作之「頂」，若起愛著諸功德法、取相分別是道非道，即刻墜入聲聞辟支佛地——進步的方式錯了，而非退步</td></tr><tr><td>頂墮五步邏輯鏈</td><td>修行→取相心著→二元對立（是道非道）→法慢（因清淨而起傲慢）→頂墮（墜入二乘地）</td></tr><tr><td>住頂與頂墮之別</td><td>頂墮是愛著諸功德法；住頂則於愛斷法亦復不取——不住於頂，方能住頂</td></tr><tr><td>解藥一・十八空</td><td>內空中不見外空、外空中不見內空……連內外之界線亦一同空去，掃把也要扔掉——空亦復空、於愛斷法亦復不取</td></tr></tbody></table><table class="c27p5-tbl"><caption>二、頂墮解藥與正位之辨（聲聞與菩薩的根本歧異）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>解藥二・戲論滅</td><td>上位菩薩得無等等心，亦不自高，知心相真空，諸有無等戲論滅——連自己已到頂這個念頭亦徹底消解</td></tr><tr><td>正位與位之名相</td><td>聲聞法中無大慈悲心、智慧不利，未生厭心多求諸法生種種邪見疑悔，因邪位故立「正位」以資對治</td></tr><tr><td>長者病子之喻</td><td>聲聞如學者急於分別諸藥名字時節分數而戲論；菩薩如父母但求良藥能差病者——前者重知、後者重行</td></tr><tr><td>因觀與果觀</td><td>聲聞從因觀十二因緣（見多者・追究起源易落戲論）；菩薩從果觀十二因緣（愛多者・直視苦難尋求救度）</td></tr><tr><td>動力矩陣</td><td>聲聞動力源於恐懼輪迴、特重對錯之辨；菩薩動力源於大慈悲心、憐愍眾生，焦點不在我對不對而在他能否離苦</td></tr><tr><td>菩薩邪位薄</td><td>因動力源不同，菩薩不需先建立強烈的邪位對抗，故亦不需正位之名——諸菩薩從果觀十二因緣，邪位薄故但名菩薩位</td></tr></tbody></table><table class="c27p5-tbl"><caption>三、入位四法與終局統合（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>入位四法總綱</td><td>發意（初發菩提心）→修行（以財與身行六度）→大悲（般若＋觀眾生虛妄＝大悲）→方便（知空與不捨眾生二事等）</td></tr><tr><td>六度功德慧明二分</td><td>布施持戒忍辱為功德分，精進禪定智慧為慧明分——福慧雙修，所願皆滿</td></tr><tr><td>大悲的昇華</td><td>修行加般若知諸法實相，加大悲心愍念眾生不知實相染著虛誑，是質變非累加——動力源由自成佛翻轉為為眾生</td></tr><tr><td>方便的動態平衡</td><td>雖知諸法空，方便力故亦不捨眾生；雖不捨眾生，亦知諸法實空——雙遮雙表，二事等即得入菩薩位</td></tr><tr><td>金翅鳥王擘海之喻</td><td>翅摶海除三障礙、水兩闢取應度者——方便力直接改變現象、拔度眾生的戲劇化形象</td></tr><tr><td>入位五大指標與收束</td><td>發意堅固、六度修行、觀空生悲、二事平等、離於法愛——諸法實相中眾生雖不可得，而眾生不知是諸法相故欲令知是實相</td></tr></tbody></table><p class="c27p5-note">本品以「頂墮」這一修行最深的悖論為核心：越是精進於入空無相無作，越可能在「頂」上因愛著功德、取相分別而墮落二乘地——<b>頂墮不是退步，而是進步的方式錯了</b>。龍樹開出十八空與戲論滅為解藥，終於入位四法收束：發意、修行、大悲、方便。方便力之精義在於「知空」與「不捨眾生」二事等無偏黨——大悲心不妨諸法實相，得諸法實相不妨大悲生。這正是不住於頂、方能住頂的中觀方便道。</p></div></div>
+<script id="wy-c27p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c27p5Btn"),BOX=document.getElementById("c27p5Box"),MODAL=document.getElementById("c27p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#videoFab,.video-fab,#vidFab,.vid-fab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c27p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C27P5:END-->
 </body></html>
