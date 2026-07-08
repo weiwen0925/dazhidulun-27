@@ -731,4 +731,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C27P3:END-->
+<!--WY-C27P4:BEGIN-->
+<style id="wy-c27p4-css">
+.c27p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c27p4-fabbox.show{display:block;}
+.c27p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c27p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c27p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c27p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c27p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c27p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c27p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c27p4-modal.open{display:flex;}
+.c27p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c27p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c27p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c27p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c27p4-close:hover{background:#e3d5b8;}
+.c27p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c27p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c27p4-tbl th,.c27p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c27p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c27p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c27p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c27p4-tbl b{color:#8b2500;}
+.c27p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c27p4-note b{color:#8b2500;}
+@media(max-width:900px){.c27p4-fabbox{right:14px;}.c27p4-tbl{font-size:11.5px;}.c27p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c27p4-fabbox" id="c27p4Box"><button class="c27p4-btn" id="c27p4Btn" type="button" aria-label="開啟全景總表"><span class="c27p4-ic">▦</span><span class="c27p4-ls"><span class="c27p4-l1">本品 · 般若火煉真金</span><span class="c27p4-l2">斷煩惱習・如金入火鍛盡惑習</span></span></button></div><div class="c27p4-modal" id="c27p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c27p4-card"><button class="c27p4-close" id="c27p4Close" type="button" aria-label="關閉">×</button><h3>卷二十七・第四品 釋斷諸煩惱習義 ・ 全景總表</h3><p class="sub">卷二十七・第四品｜頓漸與二諦・煩惱與習氣・火力之別・如實說・真閻浮檀金</p><table class="c27p4-tbl"><caption>一、頓漸之諍與煩惱習氣之辨（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>所釋經文</td><td>欲以一切種智斷煩惱習，當習行般若波羅蜜——不僅斷煩惱，更要以一切種智斷盡煩惱之殘餘氣分</td></tr><tr><td>頓漸悖論</td><td>佛智本一心中頓得，何以經中又作次第之說？答：實一切一時得，為令人信般若、令得清淨心，故次第差品說</td></tr><tr><td>二諦圓融</td><td>勝義諦（理）實一時得、無次第；世俗諦（事）次第差品說、方便施設——一心亦具生住滅三相，微觀仍有次第</td></tr><tr><td>煩惱之定義</td><td>略說即三毒，廣說即三界九十八使——實質繫縛生死之惡業之根，如套在腳上的鐵鎖</td></tr><tr><td>習氣之定義</td><td>煩惱殘氣，身口業不隨智慧似從煩惱起而實非實煩惱，久習煩惱故起如是業——如沙上殘留的腳印</td></tr><tr><td>雙喻立義</td><td>乳母之衣雖淨浣猶有垢氣、久鎖之人雖解脫猶有習在——聖人之心已洗淨解鎖，殘餘者唯久習之慣性</td></tr></tbody></table><table class="c27p4-tbl"><caption>二、聖者慣性實例與火力之別（羅漢與佛之差異）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>難陀舍利弗之習</td><td>難陀婬習未盡、眼先視女眾；舍利弗瞋習未盡、聞佛言食不淨食即便吐食——皆漏盡而習未除之例</td></tr><tr><td>迦葉等聖者之習</td><td>摩訶迦葉瞋習、畢陵伽婆蹉慢習罵恆河神為小婢、摩頭婆和吒跳戲猿猴習、憍梵鉢提牛業習吐食而呞</td></tr><tr><td>世間火與劫盡火</td><td>阿羅漢辟支佛智慧如世間火火力薄、焚薪灰炭猶在；佛智慧如劫盡火燒三千大千世界無復遺餘</td></tr><tr><td>修證差異</td><td>羅漢一至三世短暫直入涅槃、功德不盡得習氣不盡；佛無量阿僧祇劫廣修廣習、功德攝盡習氣永盡</td></tr><tr><td>功德相剋論</td><td>諸善法功德消諸煩惱故；佛於一切功德皆已攝盡，煩惱習氣永盡無餘；阿羅漢但斷世間愛，直入涅槃</td></tr><tr><td>十力大刀</td><td>佛以十力為大刀、無礙智直過，斷諸結使盡無復遺餘，如國王誅罪人七世根本令無遺餘</td></tr></tbody></table><table class="c27p4-tbl"><caption>三、如實說模型與真金之證（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>四種異說並陳</td><td>聲聞說坐道場方斷；大乘說A無生法忍時俱盡；大乘說B然燈佛時已斷；折衷說久已離欲示現有習——皆是佛口所說故無有不實</td></tr><tr><td>破二偏立如實說</td><td>毒瓶理論破坐道場才斷（因地須集純淨功德）；無主不能化破無生法忍即全盡（須留習氣以受法性生身化生）</td></tr><tr><td>如實說三階段</td><td>無生法忍位斷煩惱→十地位留習氣受法性生身入世度生→坐道場以無礙解脫力斷盡煩惱習得一切智一切種智</td></tr><tr><td>薄非斷之辨</td><td>薄三毒得轉輪聖王等世間福報；斷三毒留習氣方集諸功德；欲得佛功德身，薄而非斷則無有是事</td></tr><tr><td>八風不動之判準</td><td>利衰毀譽稱譏苦樂八風皆不能動佛心；婆羅門惡口旃遮謗佛提婆推石而佛無異色，天王奉食十方讚美而佛心不高</td></tr><tr><td>真閻浮檀金</td><td>種種因緣來欲毀佛，佛不可動；如真金火燒不異、搥打磨斫不敗不異——以是故知佛諸煩惱習都盡無餘</td></tr></tbody></table><p class="c27p4-note">本品從「一心頓得」與「次第而說」的時空悖論起筆，以二諦圓融化解頓漸之諍；繼而精密區分實質繫縛的煩惱與慣性殘氣的習氣，證成二乘漏盡而習未除。龍樹以「<b>斷而不證、留而不染</b>」立中觀如實說：菩薩無生法忍斷煩惱，十地故留習氣以法性生身入世度生，坐道場方斷盡習氣。終以真閻浮檀金火燒不異、搥打磨斫不敗不異作結——習氣永盡非抽象斷語，而是八風吹不動的具體修證，空性智慧之火於此鍛盡最後一絲慣性餘氣。</p></div></div>
+<script id="wy-c27p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c27p4Btn"),BOX=document.getElementById("c27p4Box"),MODAL=document.getElementById("c27p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#videoFab,.video-fab,#vidFab,.vid-fab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c27p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C27P4:END-->
 </body></html>
